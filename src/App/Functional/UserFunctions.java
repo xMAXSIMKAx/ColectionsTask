@@ -26,7 +26,7 @@ public class UserFunctions {
     public User getUser(int index) {
         if (index >= 0 && index < users.size()) {
             return users.get(index);
-        }else{
+        } else {
             return null;
         }
     }
